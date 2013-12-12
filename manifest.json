@@ -1,0 +1,13 @@
+{
+        "manifest_version": 2,
+        "name": "T/X/T",
+        "version": "1.0",
+        "description": "Reads text off a page and lets you mess with it. Write a William Burroughs novel in seconds!",
+        "background" : {
+        	"scripts" : ["background.js"]
+        },
+        "browser_action": {
+    		"default_icon": "icon.png"
+    	},
+    	"permissions": ["activeTab", "http://*/", "https://*/"]
+}
